@@ -25,12 +25,12 @@
 #include <map>
 #include <list>
 
-#include "sst/elements/memHierarchy/memoryController.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/cacheListener.h"
-#include "sst/elements/memHierarchy/memLinkBase.h"
-#include "sst/elements/memHierarchy/membackend/backing.h"
+#include "memoryController.h"
+#include "memEvent.h"
+#include "memEventBase.h"
+#include "cacheListener.h"
+#include "memLinkBase.h"
+#include "membackend/backing.h"
 
 namespace SST {
 namespace MemHierarchy {

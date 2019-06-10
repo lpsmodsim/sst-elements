@@ -14,14 +14,14 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/params.h>
 #include <sst/core/simulation.h>
 
 #include "coherentMemoryController.h"
 #include "util.h"
 
-#include "sst/elements/memHierarchy/customcmd/customCmdMemory.h"
+#include "customcmd/customCmdMemory.h"
 #include "membackend/memBackendConvertor.h"
 #include "memLink.h"
 #include "memNIC.h"

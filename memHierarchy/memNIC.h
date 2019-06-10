@@ -25,9 +25,9 @@
 #include <sst/core/subcomponent.h>
 #include <sst/core/interfaces/simpleNetwork.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/memLinkBase.h"
+#include "memEventBase.h"
+#include "util.h"
+#include "memLinkBase.h"
 
 namespace SST {
 namespace MemHierarchy {

@@ -26,8 +26,8 @@
 #include <sst/core/timeConverter.h>
 #include <sst/core/output.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/util.h"
+#include "memEventBase.h"
+#include "util.h"
 
 using namespace std;
 

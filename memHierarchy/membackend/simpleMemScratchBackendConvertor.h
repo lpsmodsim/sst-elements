@@ -18,7 +18,7 @@
 #define __SST_MEMH_SIMPLEMEMSCRATCHBACKENDCONVERTOR__
 
 
-#include "sst/elements/memHierarchy/membackend/scratchBackendConvertor.h"
+#include "scratchBackendConvertor.h"
 
 namespace SST {
 namespace MemHierarchy {

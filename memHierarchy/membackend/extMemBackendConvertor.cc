@@ -14,10 +14,10 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <vector>
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/memoryController.h"
+#include "util.h"
+#include "memoryController.h"
 #include "membackend/extMemBackendConvertor.h"
 #include "membackend/memBackend.h"
 #include "customcmd/customOpCodeCmd.h"

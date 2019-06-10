@@ -10,7 +10,7 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/timeLord.h>
 #include "membackend/timingDRAMBackend.h"
 

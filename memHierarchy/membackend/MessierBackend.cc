@@ -14,13 +14,13 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/link.h>
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 #include "membackend/MessierBackend.h"
-#include "sst/elements/Messier/NVM_Request.h"
+#include "NVM_Request.h"
 
-#include "sst/elements/Messier/memReqEvent.h"
+#include "memReqEvent.h"
 
 #include "membackend/memBackend.h"
 

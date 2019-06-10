@@ -18,7 +18,7 @@
 #define __SST_MEMH_SCRATCHBACKENDCONVERTOR__
 
 #include <sst/core/subcomponent.h>
-#include "sst/elements/memHierarchy/memEvent.h"
+#include "memEvent.h"
 
 namespace SST {
 namespace MemHierarchy {

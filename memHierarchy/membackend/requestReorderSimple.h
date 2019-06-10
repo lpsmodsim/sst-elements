@@ -17,7 +17,7 @@
 #ifndef _H_SST_MEMH_REQUEST_REORDER_SIMPLE_BACKEND
 #define _H_SST_MEMH_REQUEST_REORDER_SIMPLE_BACKEND
 
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 #include <list>
 
 namespace SST {

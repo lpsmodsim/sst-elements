@@ -17,7 +17,7 @@
 #ifndef _H_SST_MEMH_RAMULATOR_BACKEND
 #define _H_SST_MEMH_RAMULATOR_BACKEND
 
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 
 #include "Gem5Wrapper.h"
 

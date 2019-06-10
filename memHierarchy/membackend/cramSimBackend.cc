@@ -14,11 +14,11 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/link.h>
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 #include "membackend/cramSimBackend.h"
-#include "sst/elements/CramSim/memReqEvent.hpp"
+#include "memReqEvent.hpp"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

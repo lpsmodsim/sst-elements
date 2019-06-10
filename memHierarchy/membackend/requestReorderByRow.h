@@ -17,7 +17,7 @@
 #ifndef _H_SST_MEMH_REQUEST_REORDER_ROW_BACKEND
 #define _H_SST_MEMH_REQUEST_REORDER_ROW_BACKEND
 
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 #include <list>
 #include <vector>
 

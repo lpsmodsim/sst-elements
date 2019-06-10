@@ -18,7 +18,7 @@
 #define _H_SST_MEMH_CRAM_SIM_BACKEND
 
 
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 
 namespace SST {
 namespace MemHierarchy {

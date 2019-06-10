@@ -14,8 +14,8 @@
 // distribution.
 
 
-#include <sst_config.h>
-#include "sst/elements/memHierarchy/util.h"
+#include <sst/core/sst_config.h>
+#include "util.h"
 #include "membackend/ramulatorBackend.h"
 
 #include "Config.h"

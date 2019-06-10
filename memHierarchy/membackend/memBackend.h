@@ -25,10 +25,10 @@
 #include <map>
 #include <vector>
 
-#include "sst/elements/memHierarchy/membackend/memBackendConvertor.h"
-#include "sst/elements/memHierarchy/membackend/simpleMemBackendConvertor.h"
-#include "sst/elements/memHierarchy/membackend/flagMemBackendConvertor.h"
-#include "sst/elements/memHierarchy/membackend/extMemBackendConvertor.h"
+#include "memBackendConvertor.h"
+#include "simpleMemBackendConvertor.h"
+#include "flagMemBackendConvertor.h"
+#include "extMemBackendConvertor.h"
 
 #define NO_STRING_DEFINED "N/A"
 

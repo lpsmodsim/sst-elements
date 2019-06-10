@@ -17,7 +17,7 @@
 #ifndef __SST_MEMH_EXTMEMBACKENDCONVERTOR__
 #define __SST_MEMH_EXTMEMBACKENDCONVERTOR__
 
-#include "sst/elements/memHierarchy/membackend/memBackendConvertor.h"
+#include "memBackendConvertor.h"
 
 namespace SST {
 namespace MemHierarchy {

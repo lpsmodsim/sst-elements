@@ -17,10 +17,10 @@
 
 #include <sst/core/componentExtension.h>
 
-#include "sst/elements/memHierarchy/membackend/simpleMemBackend.h"
-#include "sst/elements/memHierarchy/membackend/timingAddrMapper.h"
-#include "sst/elements/memHierarchy/membackend/timingTransaction.h"
-#include "sst/elements/memHierarchy/membackend/timingPagePolicy.h"
+#include "simpleMemBackend.h"
+#include "timingAddrMapper.h"
+#include "timingTransaction.h"
+#include "timingPagePolicy.h"
 
 namespace SST {
 namespace MemHierarchy {

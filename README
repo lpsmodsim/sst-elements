@@ -1,20 +1,37 @@
 Manual fixes applied after running fixes.sh:
-merlin - fix #includes so that they reference the correct directory structure:
-           -offeredLoad
-           -hr_router
-           -target_generator files
-           -topologies
-           -trafficGen
+fix #includes so that they reference the correct directory structure:
 
+merlin:
+	-offeredLoad
+	-hr_router files
+	-target_generator files
+	-topologies (all)
+	-trafficGen files
+	
+memHierarchy:
+	-scratchpad
+	-cacheController
+	-memHierarchyInterface
+	-memoryController
+	-memBackendConvertor
+	-coherentMemoryController
+	
+cassini:
+	-
 
-
+-----------------------------------------------------------------------------------
 List of elements that build properly:
 kingsley
 scheduler
 pyproto
 merlin
+CramSim
+memHierarchy
+Messier
+cacheTracer
+GNA
 
-
+simpleElementExample
 
 
 
@@ -32,7 +49,7 @@ shogun
 
 
 
-
+----------------------------------------------------------------------------------------
 Old results before updating:
 List of elements that have been separated and run standalone:
 

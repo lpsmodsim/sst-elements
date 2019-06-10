@@ -23,7 +23,7 @@
 #include <sst/core/component.h>
 #include <sst/core/params.h>
 #include <sst/core/output.h>
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 
 #include <list>
 

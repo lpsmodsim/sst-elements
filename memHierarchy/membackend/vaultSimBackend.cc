@@ -14,11 +14,11 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/link.h>
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 #include "membackend/vaultSimBackend.h"
-#include "sst/elements/VaultSimC/memReqEvent.h"
+#include "memReqEvent.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

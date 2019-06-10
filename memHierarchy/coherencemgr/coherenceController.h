@@ -25,10 +25,10 @@
 #include <sst/core/output.h>
 
 #include "util.h"
-#include "sst/elements/memHierarchy/cacheListener.h"
-#include "sst/elements/memHierarchy/cacheArray.h"
-#include "sst/elements/memHierarchy/mshr.h"
-#include "sst/elements/memHierarchy/memLinkBase.h"
+#include "cacheListener.h"
+#include "cacheArray.h"
+#include "mshr.h"
+#include "memLinkBase.h"
 
 namespace SST { namespace MemHierarchy {
 using namespace std;

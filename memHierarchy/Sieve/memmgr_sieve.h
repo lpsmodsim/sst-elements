@@ -20,7 +20,7 @@
 #include <sst/core/component.h>
 #include <sst/core/output.h>
 
-#include "sst/elements/ariel/arielmemmgr.h"
+#include "arielmemmgr.h"
 
 #include <stdint.h>
 #include <deque>

@@ -14,8 +14,8 @@
 // distribution.
 
 #include <array>
-#include <sst_config.h>
-#include "sst/elements/memHierarchy/memNICFour.h"
+#include <sst/core/sst_config.h>
+#include "memNICFour.h"
 
 #include <sst/core/simulation.h>
 

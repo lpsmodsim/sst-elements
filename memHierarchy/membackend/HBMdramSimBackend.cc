@@ -18,8 +18,8 @@
 // using the DRAMSim port from:
 // https://github.com/tactcomplabs/HBM
 
-#include <sst_config.h>
-#include "sst/elements/memHierarchy/util.h"
+#include <sst/core/sst_config.h>
+#include "util.h"
 #include "membackend/HBMdramSimBackend.h"
 
 using namespace SST;

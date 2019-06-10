@@ -27,10 +27,10 @@
 #include <sst/core/subcomponent.h>
 #include <sst/core/warnmacros.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/memTypes.h"
+#include "memEventBase.h"
+#include "memEvent.h"
+#include "util.h"
+#include "memTypes.h"
 
 namespace SST {
 namespace MemHierarchy {

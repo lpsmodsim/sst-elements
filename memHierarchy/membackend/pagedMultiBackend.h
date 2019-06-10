@@ -18,7 +18,7 @@
 #define _H_SST_MEMH_PAGEDMULTI_BACKEND
 
 #include <queue>
-#include "sst/elements/memHierarchy/membackend/dramSimBackend.h"
+#include "dramSimBackend.h"
 #include <sst/core/rng/sstrng.h>
 
 #ifdef DEBUG

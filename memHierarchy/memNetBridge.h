@@ -23,7 +23,7 @@
 #include <sst/core/output.h>
 #include <sst/core/interfaces/simpleNetwork.h>
 
-#include <sst/elements/merlin/bridge.h>
+#include <bridge.h>
 
 #include <map>
 

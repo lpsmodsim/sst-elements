@@ -21,8 +21,8 @@
 #include <sst/core/event.h>
 #include <sst/core/warnmacros.h>
 
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/customcmd/customCmdMemory.h"
+#include "memEvent.h"
+#include "../customcmd/customCmdMemory.h"
 
 namespace SST {
 namespace MemHierarchy {

@@ -11,6 +11,7 @@ SRCS = $(filter-out \
     Sieve/sieveController.cc \
     Sieve/sieveFactory.cc \
     Sieve/broadcastShim.cc \
+    Sieve/memmgr_sieve.cc \
     membackend/goblinHMCBackend.cc \
     membackend/hybridSimBackend.cc \
     membackend/vaultSimBackend.cc \
@@ -55,7 +56,7 @@ endif
 ifneq ($(ariel),)
     INCLUDES  += -I$(ariel)
     LIBRARIES += -L$(ariel) -lariel
-    SRCS += Sieve/sieveController.cc Sieve/sieveFactory.cc Sieve/broadcastShim.cc
+    SRCS += Sieve/sieveController.cc Sieve/sieveFactory.cc Sieve/broadcastShim.cc Sieve/memmgr_sieve.cc
 endif
 ifneq ($(HMC),)
     INCLUDES  += -I$(HMC)

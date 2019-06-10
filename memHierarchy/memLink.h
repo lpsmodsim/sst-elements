@@ -25,11 +25,11 @@
 #include <sst/core/output.h>
 #include <sst/core/link.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/memTypes.h"
-#include "sst/elements/memHierarchy/memLinkBase.h"
+#include "memEventBase.h"
+#include "memEvent.h"
+#include "util.h"
+#include "memTypes.h"
+#include "memLinkBase.h"
 
 namespace SST {
 namespace MemHierarchy {

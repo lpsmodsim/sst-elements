@@ -28,9 +28,9 @@
 #include <sst/core/interfaces/simpleMem.h>
 #include <sst/core/output.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/customcmd/customCmdEvent.h"
+#include "memEventBase.h"
+#include "memEvent.h"
+#include "customcmd/customCmdEvent.h"
 
 namespace SST {
 

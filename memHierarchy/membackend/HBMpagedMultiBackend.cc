@@ -16,7 +16,7 @@
 // Duplicate of the original pagedMultiBackend.h for use
 // with the HBM DRAMSim2 model
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 
 #include <limits>
 
@@ -24,7 +24,7 @@
 #include <sst/core/timeConverter.h>
 #include "sst/core/rng/mersenne.h"
 #include "sst/core/timeLord.h" // is this allowed?
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 #include "membackend/HBMpagedMultiBackend.h"
 
 using namespace SST;

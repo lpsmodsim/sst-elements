@@ -14,10 +14,10 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/link.h>
 #include "membackend/delayBuffer.h"
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

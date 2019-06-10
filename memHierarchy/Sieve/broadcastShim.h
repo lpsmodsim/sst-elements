@@ -27,7 +27,7 @@
 #include <sst/core/output.h>
 
 
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 #include "alloctrackev.h"
 
 

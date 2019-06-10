@@ -17,7 +17,7 @@
 #ifndef _H_SST_MEMH_HYBRIDSIM_BACKEND
 #define _H_SST_MEMH_HYBRIDSIM_BACKEND
 
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 
 #ifdef DEBUG
 #define OLD_DEBUG DEBUG

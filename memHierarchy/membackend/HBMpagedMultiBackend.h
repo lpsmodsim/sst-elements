@@ -21,7 +21,7 @@
 
 #include <queue>
 #include <sst/core/rng/sstrng.h>
-#include "sst/elements/memHierarchy/membackend/HBMdramSimBackend.h"
+#include "HBMdramSimBackend.h"
 
 #ifdef DEBUG
 #define OLD_DEBUG DEBUG

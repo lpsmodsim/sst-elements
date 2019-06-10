@@ -19,7 +19,7 @@
 #include <iostream>
 
 
-#include "sst/elements/memHierarchy/coherencemgr/coherenceController.h"
+#include "coherenceController.h"
 
 
 namespace SST { namespace MemHierarchy {

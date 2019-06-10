@@ -15,7 +15,7 @@
 // distribution.
 //
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include "memHierarchyInterface.h"
 
 #include <sst/core/component.h>

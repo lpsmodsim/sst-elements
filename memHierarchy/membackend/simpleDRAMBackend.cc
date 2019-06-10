@@ -14,9 +14,9 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/link.h>
-#include "sst/elements/memHierarchy/util.h"
+#include "util.h"
 #include "membackend/simpleDRAMBackend.h"
 
 using namespace SST;

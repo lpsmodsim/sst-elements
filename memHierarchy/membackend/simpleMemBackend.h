@@ -17,7 +17,7 @@
 #ifndef _H_SST_MEMH_SIMPLE_MEM_BACKEND
 #define _H_SST_MEMH_SIMPLE_MEM_BACKEND
 
-#include "sst/elements/memHierarchy/membackend/memBackend.h"
+#include "memBackend.h"
 
 namespace SST {
 namespace MemHierarchy {

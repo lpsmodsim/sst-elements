@@ -21,8 +21,8 @@
 #include <sst/core/output.h>
 #include <sst/core/interfaces/simpleNetwork.h>
 
-#include "sst/elements/memHierarchy/memTypes.h"
-#include "sst/elements/memHierarchy/memEvent.h"
+#include "memTypes.h"
+#include "memEvent.h"
 
 using namespace SST;
 using namespace SST::Interfaces;

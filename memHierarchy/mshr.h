@@ -25,8 +25,8 @@
 #include <sst/core/component.h>
 #include <sst/core/output.h>
 
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/util.h"
+#include "memEvent.h"
+#include "util.h"
 
 namespace SST { namespace MemHierarchy {
 

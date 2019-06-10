@@ -21,9 +21,9 @@
 #include <sst/core/event.h>
 #include <sst/core/warnmacros.h>
 
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/memTypes.h"
+#include "util.h"
+#include "memEventBase.h"
+#include "memTypes.h"
 
 namespace SST { namespace MemHierarchy {
 

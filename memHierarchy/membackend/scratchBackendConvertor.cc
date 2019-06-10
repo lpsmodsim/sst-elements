@@ -14,9 +14,9 @@
 // distribution.
 
 
-#include <sst_config.h>
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/scratchpad.h"
+#include <sst/core/sst_config.h>
+#include "util.h"
+#include "scratchpad.h"
 #include "membackend/scratchBackendConvertor.h"
 #include "membackend/memBackend.h"
 

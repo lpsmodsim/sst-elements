@@ -28,10 +28,10 @@
 
 #include <unordered_map>
 
-#include "sst/elements/memHierarchy/cacheArray.h"
-#include "sst/elements/memHierarchy/cacheListener.h"
-#include "sst/elements/memHierarchy/replacementManager.h"
-#include "sst/elements/memHierarchy/util.h"
+#include "cacheArray.h"
+#include "cacheListener.h"
+#include "replacementManager.h"
+#include "util.h"
 #include "alloctrackev.h"
 
 
