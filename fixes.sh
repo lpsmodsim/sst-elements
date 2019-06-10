@@ -13,9 +13,11 @@ PYTHONFILES=$(find . -name '*.py')
 CXXFILES="$CFILES $HFILES $CCFILES $CPPFILES $HPPFILES"
 
 for f in $CXXFILES; do
-	# On mac sed -i needs '' as the extension, should check for this
+	# Grab the element to help parse things out
+	element=$(echo $f | cut -d'/' -f2)
 	
+	# On mac sed -i needs '' as the extension, should check for this
 	# search for either <sst_config.h> or "sst_config.h" and replace with <sst/core/sst_config.h>
-	# delete sst/elements
-	sed -i 's|.sst_config\.h.|<sst/core/sst_config.h>|g; s|sst/elements/||g' $f
+	# delete sst/elements/<element> and sst/elements/
+	sed -i "s|.sst_config\.h.|<sst/core/sst_config.h>|g; s|sst/elements/$element/||g; s|sst/elements/||g" $f
 done
