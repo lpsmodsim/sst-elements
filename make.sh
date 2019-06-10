@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# redo memHierarchy at the end to compile some of the optional dependencies
 elements=(\
     kingsley \
     scheduler \
@@ -17,7 +18,7 @@ elements=(\
     miranda \
     thornhill \
     zodiac \
-    memHierarchy \ # redo memHierarchy at the end to compile some of the optional dependencies
+    memHierarchy \
 )
 
 for i in "${elements[@]}"; do
