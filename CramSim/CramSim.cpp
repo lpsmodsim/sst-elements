@@ -14,7 +14,7 @@
 // distribution.
 
 // SST includes
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 
 // local includes

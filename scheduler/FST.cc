@@ -17,7 +17,7 @@
  * Computes the FST for each job that comes in
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "FST.h"
 
 #include <vector>

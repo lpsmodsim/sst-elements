@@ -17,7 +17,7 @@
  * Allocator that assigns the first available processors (according to
  * order specified when allocator is created).
  */
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "SortedFreeListAllocator.h"
 
 #include <vector>

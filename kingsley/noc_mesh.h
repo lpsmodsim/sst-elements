@@ -28,8 +28,8 @@
 
 #include <queue>
 
-#include "sst/elements/kingsley/nocEvents.h"
-#include "sst/elements/kingsley/lru_unit.h"
+#include "nocEvents.h"
+#include "lru_unit.h"
 
 using namespace SST;
 

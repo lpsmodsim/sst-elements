@@ -37,7 +37,7 @@
 
 #include <sst/core/component.h>
 #include <sst/core/serialization/serializable.h>
-#include "output.h"
+#include <sst/core/output.h>
 
 //local includes
 //#include "c_Transaction.hpp"

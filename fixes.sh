@@ -18,10 +18,10 @@ for f in $CXXFILES; do
 	
 	# search for either <sst_config.h> or "sst_config.h" and replace with <sst/core/sst_config.h>
 	# delete sst/elements/*/ and sst/elements/
-#	sed -i -e 's|<sst_config\.h>|<sst/core/sst_config.h>|g
-#	           s|"sst_config\.h"|<sst/core/sst_config.h>|g
-#	           s|sst/elements/.*/||g
-#	           s|sst/elements/||g' $f
+	sed -i -e 's|<sst_config\.h>|<sst/core/sst_config.h>|g
+	           s|"sst_config\.h"|<sst/core/sst_config.h>|g
+	           s|sst/elements/.*/||g
+	           s|sst/elements/||g' $f
 
 	# search for either <output.h> or "output.h" and replace with <sst/core/output.h> except in scheduler
 	if [ "$element" != "scheduler" ]; then

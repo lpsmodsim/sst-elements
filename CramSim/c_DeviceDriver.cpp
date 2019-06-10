@@ -32,7 +32,7 @@
 // limitations under the License.
 // C++ includes
 //SST includes
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 #include <string>
 #include <vector>

@@ -20,7 +20,7 @@
  * NearestAllocator.cc
 */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "EnergyAllocator.h"
 
 #include <sstream>

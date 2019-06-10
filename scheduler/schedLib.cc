@@ -13,7 +13,7 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 
 #define SST_ELI_COMPILE_OLD_ELI_WITHOUT_DEPRECATION_WARNINGS
 

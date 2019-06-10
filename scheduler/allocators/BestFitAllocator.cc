@@ -21,7 +21,7 @@
  * (maximum distance along linear order between assigned nodes)->
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "BestFitAllocator.h"
 
 #include <vector>

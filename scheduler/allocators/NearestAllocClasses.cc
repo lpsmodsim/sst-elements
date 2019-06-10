@@ -34,7 +34,7 @@
  generators, and scorers for use with the nearest allocators
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "NearestAllocClasses.h"
 
 #include <string>

@@ -15,7 +15,7 @@
 
 /*functions that implement the actual calls to glpk for energy-aware allocators*/
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "EnergyAllocClasses.h"
 
 #include <stdio.h>

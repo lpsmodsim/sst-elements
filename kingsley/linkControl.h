@@ -26,7 +26,7 @@
 
 // #include <sst/core/statapi/statbase.h>
 
-#include "sst/elements/kingsley/nocEvents.h"
+#include "nocEvents.h"
 
 #include <queue>
 

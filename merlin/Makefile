@@ -4,7 +4,7 @@ LDFLAGS  = $(shell sst-config --ELEMENT_LDFLAGS)
 
 SRC = $(wildcard *.cc */*.cc)
 #Exclude these files from default compilation
-SRCS = $(filter-out boostExports.cpp, $(SRC))
+SRCS = $(filter-out boostExports.cc, $(SRC))
 OBJ = $(SRCS:%.cc=.build/%.o)
 DEP = $(OBJ:%.o=%.d)
 

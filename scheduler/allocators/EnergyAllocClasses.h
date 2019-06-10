@@ -18,7 +18,7 @@
 #ifndef SST_SCHEDULER_ENERGYALLOCCLASSES_H__
 #define SST_SCHEDULER_ENERGYALLOCCLASSES_H__
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include <vector>
 
 namespace SST {

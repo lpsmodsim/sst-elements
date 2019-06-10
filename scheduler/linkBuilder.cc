@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 #include "linkBuilder.h"
 

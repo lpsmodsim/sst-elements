@@ -33,7 +33,7 @@
  Cooling - use MC1x1 but use cooling information to obtain centers
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "NearestAllocator.h"
 
 #include <sstream>

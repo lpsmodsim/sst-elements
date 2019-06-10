@@ -18,7 +18,7 @@
  * some comparator without any backfilling.
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "PQScheduler.h"
 
 #include <functional>

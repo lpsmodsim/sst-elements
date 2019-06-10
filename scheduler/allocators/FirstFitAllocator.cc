@@ -21,7 +21,7 @@
  * (maximum distance along linear order between assigned processors)->
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "FirstFitAllocator.h"
 
 #include <vector>

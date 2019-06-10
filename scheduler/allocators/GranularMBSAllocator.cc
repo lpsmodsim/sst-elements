@@ -20,7 +20,7 @@
  * create complete blocks, and make sure the "root" blocks are in the FBR->
  */
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "GranularMBSAllocator.h"
 
 #include <vector>

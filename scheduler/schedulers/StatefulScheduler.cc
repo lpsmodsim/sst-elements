@@ -18,7 +18,7 @@
  * Schedulers based around priority queues; jobs run in order given by
  * some comparator without any backfilling.
  */
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "StatefulScheduler.h"
 
 #include <functional>

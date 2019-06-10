@@ -25,7 +25,7 @@
 // Ayse K Coskun. Level-Spread: A New Job Allocation Policy for Dragonfly Networks. 
 // IEEE International Parallel & Distributed Processing Symposium (IPDPS), 2018.
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 #include "DflyHybridAllocator.h"
 

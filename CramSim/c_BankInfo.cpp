@@ -29,7 +29,7 @@
 #include <memory>
 #include <assert.h>
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 //local includes
 #include "c_BankInfo.hpp"

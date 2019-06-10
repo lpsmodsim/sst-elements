@@ -28,7 +28,7 @@
 // limitations under the License.
 
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 // std includes
 #include <iostream>

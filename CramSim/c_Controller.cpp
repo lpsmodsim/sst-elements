@@ -27,7 +27,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 #include "c_Controller.hpp"
 #include "c_TxnReqEvent.hpp"

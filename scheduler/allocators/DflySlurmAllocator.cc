@@ -15,7 +15,7 @@
 //check the labeling of the nodes in dragonfly.
 //find out the best allocation for entire machine case.
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 #include "DflySlurmAllocator.h"
 
