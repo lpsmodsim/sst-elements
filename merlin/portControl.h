@@ -31,7 +31,7 @@
 #include <queue>
 #include <cstring>
 
-#include "sst/elements/merlin/router.h"
+#include "router.h"
 
 using namespace SST;
 

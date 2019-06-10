@@ -24,7 +24,7 @@
 
 #include <sst/core/statapi/statbase.h>
 
-#include "sst/elements/merlin/router.h"
+#include "router.h"
 
 #include <queue>
 #include <unordered_map>

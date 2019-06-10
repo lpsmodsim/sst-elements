@@ -19,7 +19,7 @@
 #ifndef COMPONENTS_MERLIN_TARGET_GENERATOR_UNIFORM_H
 #define COMPONENTS_MERLIN_TARGET_GENERATOR_UNIFORM_H
 
-#include <sst/elements/merlin/target_generator/target_generator.h>
+#include "target_generator.h"
 
 #include <sst/core/rng/mersenne.h>
 #include <sst/core/rng/uniform.h>

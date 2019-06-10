@@ -1,3 +1,39 @@
+Manual fixes applied after running fixes.sh:
+merlin - fix #includes so that they reference the correct directory structure:
+           -offeredLoad
+           -hr_router
+           -target_generator files
+           -topologies
+           -trafficGen
+
+
+
+List of elements that build properly:
+kingsley
+scheduler
+pyproto
+merlin
+
+
+
+
+
+
+Ignoring:
+ariel - PIN
+prospero - PIN
+simpleSimulation - this is the old version of the carwash
+
+
+New and need to be investigated:
+shogun
+
+
+
+
+
+
+Old results before updating:
 List of elements that have been separated and run standalone:
 
 kingsley
@@ -27,19 +63,6 @@ zodiac - need to test dumpi and otf - depends on thornhill
 ember - tools compiled separately? need to test, emberotf2.cc needs otf? - depends on thornhill
 
 
-
-Ignoring:
-ariel - PIN
-prospero - PIN
-simpleSimulation - this is the old version of the carwash
-
-
-
-New and need to be investigated:
-shogun
-
-
-
 thornhill & hermes - no tests
 
 Tested and Runs:
@@ -51,16 +74,4 @@ Messier
 miranda - skipped goblin HMC tests, others seem to work
 VaultSimC - skipped pim test, sdl tests work
 simpleElementExample - Tracer component doesn't work, everything else does
-
-
-
-Tested and Problems:
-CramSim - several values are missing, could be config file? Does run without crashing
-ember - refers to old naming for merlin topos
-firefly - no python tests, guessing that nicTester is the test
-merlin - changed naming, torus still doesn't work
-Opal - uses ariel for test
-Samba - Opal test does a divide by 0 error
-scheduler - no python tests? yumyum perl script has hardcoded sst-core location
-zodiac - no python tests?
 

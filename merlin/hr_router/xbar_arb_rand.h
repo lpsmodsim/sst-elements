@@ -26,8 +26,8 @@
 #include <vector>
 #include <queue>
 
-#include "sst/elements/merlin/router.h"
-#include "sst/elements/merlin/portControl.h"
+#include "../router.h"
+#include "../portControl.h"
 
 namespace SST {
 namespace Merlin {

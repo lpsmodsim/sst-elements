@@ -24,7 +24,7 @@
 #include <sst/core/params.h>
 #include <sst/core/rng/sstrng.h>
 
-#include "sst/elements/merlin/router.h"
+#include "../router.h"
 
 
 

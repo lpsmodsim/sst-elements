@@ -12,8 +12,8 @@
 // This file is part of the SST software package. For license
 // information, see the LICENSE file in the top level directory of the
 // distribution.
-#include <sst_config.h>
-#include "hr_router/hr_router.h"
+#include <sst/core/sst_config.h>
+#include "hr_router.h"
 
 #include <sst/core/params.h>
 #include <sst/core/simulation.h>
@@ -25,8 +25,8 @@
 
 #include <signal.h>
 
-#include "merlin.h"
-#include "portControl.h"
+#include "../merlin.h"
+#include "../portControl.h"
 
 using namespace SST::Merlin;
 using namespace SST::Interfaces;

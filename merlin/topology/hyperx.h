@@ -27,7 +27,7 @@
 #include <string.h>
 #include <vector>
 
-#include "sst/elements/merlin/router.h"
+#include "../router.h"
 
 namespace SST {
 namespace Merlin {

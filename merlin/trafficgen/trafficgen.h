@@ -33,8 +33,8 @@
 #include <sst/core/timeConverter.h>
 #include <sst/core/output.h>
 
-#include "sst/elements/merlin/merlin.h"
-#include "sst/elements/merlin/linkControl.h"
+#include "../merlin.h"
+#include "../linkControl.h"
 
 #define ENABLE_FINISH_HACK 0
 

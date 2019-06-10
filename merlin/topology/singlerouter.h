@@ -23,7 +23,7 @@
 #include <sst/core/link.h>
 #include <sst/core/params.h>
 
-#include "sst/elements/merlin/router.h"
+#include "../router.h"
 
 namespace SST {
 namespace Merlin {

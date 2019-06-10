@@ -13,8 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
-#include "trafficgen/trafficgen.h"
+#include <sst/core/sst_config.h>
+#include "trafficgen.h"
 #include <unistd.h>
 #include <climits>
 #include <signal.h>
@@ -23,7 +23,7 @@
 #include <sst/core/simulation.h>
 #include <sst/core/timeLord.h>
 
-#include "sst/elements/merlin/linkControl.h"
+#include "../linkControl.h"
 
 using namespace SST::Merlin;
 using namespace SST::Interfaces;

@@ -15,8 +15,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst/elements/merlin/target_generator/uniform.h>
-#include <sst/elements/merlin/target_generator/bit_complement.h>
+#include "uniform.h"
+#include "bit_complement.h"
 
 namespace SST {
 namespace Merlin {

@@ -3,7 +3,9 @@ CXXFLAGS = $(shell sst-config --ELEMENT_CXXFLAGS)
 LDFLAGS  = $(shell sst-config --ELEMENT_LDFLAGS)
 
 SRC = $(wildcard *.cc */*.cc)
-OBJ = $(SRC:%.cc=.build/%.o)
+#Exclude these files from default compilation
+SRCS = $(filter-out boostExports.cpp, $(SRC))
+OBJ = $(SRCS:%.cc=.build/%.o)
 DEP = $(OBJ:%.o=%.d)
 
 .PHONY: all install uninstall clean

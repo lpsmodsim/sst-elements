@@ -24,8 +24,8 @@
 
 #include <vector>
 
-#include "sst/elements/merlin/router.h"
-#include "sst/elements/merlin/portControl.h"
+#include "../router.h"
+#include "../portControl.h"
 
 using namespace SST;
 

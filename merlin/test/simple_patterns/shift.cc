@@ -12,8 +12,8 @@
 // This file is part of the SST software package. For license
 // information, see the LICENSE file in the top level directory of the
 // distribution.
-#include <sst_config.h>
-#include "sst/elements/merlin/test/simple_patterns/shift.h"
+#include <sst/core/sst_config.h>
+#include "shift.h"
 
 #include <unistd.h>
 

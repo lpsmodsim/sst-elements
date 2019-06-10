@@ -12,15 +12,15 @@
 // This file is part of the SST software package. For license
 // information, see the LICENSE file in the top level directory of the
 // distribution.
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 
 #include <sst/core/params.h>
 #include <sst/core/simulation.h>
 #include <sst/core/timeLord.h>
 #include <sst/core/unitAlgebra.h>
 
-#include "sst/elements/merlin/merlin.h"
-#include "sst/elements/merlin/test/bisection/bisection_test.h"
+#include "merlin.h"
+#include "bisection_test.h"
 
 using namespace std;
 namespace SST {

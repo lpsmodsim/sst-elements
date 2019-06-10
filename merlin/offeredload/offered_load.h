@@ -34,7 +34,7 @@
 #include <sst/core/output.h>
 #include "sst/core/interfaces/simpleNetwork.h"
 
-#include "sst/elements/merlin/target_generator/target_generator.h"
+#include "../target_generator/target_generator.h"
 
 namespace SST {
 namespace Merlin {
