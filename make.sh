@@ -4,6 +4,7 @@ elements=(\
     kingsley \
     scheduler \
     pyproto \
+    shogun \
     merlin \
     CramSim \
     memHierarchy \

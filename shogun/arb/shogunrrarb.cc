@@ -1,7 +1,7 @@
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 
-#include "shogun_event.h"
+#include "../shogun_event.h"
 #include "shogunrrarb.h"
 
 using namespace SST::Shogun;

@@ -2,7 +2,7 @@
 #ifndef _H_SHOGUN_RANDOM_ARB_H
 #define _H_SHOGUN_RANDOM_ARB_H
 
-#include "shogun_event.h"
+#include "../shogun_event.h"
 #include "shogunarb.h"
 
 namespace SST {

@@ -2,9 +2,9 @@
 #ifndef _H_SHOGUN_ARB_H
 #define _H_SHOGUN_ARB_H
 
-#include "shogun_event.h"
-#include "shogun_q.h"
-#include "shogun_stat_bundle.h"
+#include "../shogun_event.h"
+#include "../shogun_q.h"
+#include "../shogun_stat_bundle.h"
 
 using namespace SST::Shogun;
 

@@ -37,6 +37,7 @@ List of elements that build properly:
 kingsley
 scheduler
 pyproto
+shogun
 merlin
 CramSim
 memHierarchy
@@ -60,16 +61,13 @@ prospero - PIN
 simpleSimulation - this is the old version of the carwash
 
 
-New and need to be investigated:
-shogun
-
-
 -----------------------------------------------------------------------------------
 Dependencies:
 
 kingsley - None
 scheduler - None
 pyproto - None
+shogun - None
 merlin - None
 CramSim - None
 
