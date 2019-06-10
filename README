@@ -31,13 +31,12 @@ ember - tools compiled separately? need to test, emberotf2.cc needs otf? - depen
 Ignoring:
 ariel - PIN
 prospero - PIN
-SysC - bad
-HMC - uses systemc
-savannah - no code........
-vanadis - no code again?!?!?
 simpleSimulation - this is the old version of the carwash
 
 
+
+New and need to be investigated:
+shogun
 
 
 
