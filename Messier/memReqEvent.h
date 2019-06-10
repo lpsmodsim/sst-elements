@@ -15,12 +15,12 @@
 #ifndef _H_SST_MESSIER_MEM_EVENT
 #define _H_SST_MESSIER_MEM_EVENT
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/component.h>
 #include <sst/core/timeConverter.h>
 #include <sst/core/link.h>
 #include <sst/core/event.h>
-//#include <sst/elements/Messier/Messier.h>
+//#include <Messier.h>
 
 namespace SST {
 namespace MessierComponent {

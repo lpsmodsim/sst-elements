@@ -20,10 +20,10 @@
 #define _H_SST_NVM_BANK
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/component.h>
 #include <sst/core/timeConverter.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 #include<map>
 #include<list>
 

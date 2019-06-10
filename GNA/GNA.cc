@@ -13,13 +13,13 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include "GNA.h"
 
 #include <sst/core/params.h>
 #include <sst/core/simulation.h>
 #include <sst/core/rng/marsaglia.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 
 using namespace SST;
 //using namespace SST::MemHierarchy;

@@ -20,11 +20,11 @@
 #define _H_SST_NVM_DIMM
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/componentExtension.h>
 #include <sst/core/timeConverter.h>
 #include <sst/core/link.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 #include <map>
 #include <list>
 #include "Rank.h"

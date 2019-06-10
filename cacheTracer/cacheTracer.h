@@ -26,7 +26,7 @@
 #include <sst/core/sst_types.h>
 #include <sst/core/link.h>
 #include <sst/core/timeConverter.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 #include <assert.h>
 #include <errno.h>
 #include <execinfo.h>
