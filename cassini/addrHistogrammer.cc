@@ -16,7 +16,7 @@
 // File:   addrHistogrammer.cc
 // Author: Jagan Jayaraj (derived from Cassini prefetcher modules written by Si Hammond)
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "addrHistogrammer.h"
 
 #include <stdint.h>

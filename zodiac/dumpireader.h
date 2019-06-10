@@ -25,7 +25,7 @@
 #include <iostream>
 #include <queue>
 
-#include "sst/elements/hermes/msgapi.h"
+#include "msgapi.h"
 
 #include "zevent.h"
 #include "zsendevent.h"

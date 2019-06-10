@@ -13,20 +13,20 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
-#include <VaultSimC.h>
+#include <sst/core/sst_config.h>
+#include "VaultSimC.h"
 
 #include <sys/mman.h>
 
 #include <sst/core/link.h>
 #include <sst/core/params.h>
-#include <sst/elements/VaultSimC/memReqEvent.h>
+#include "memReqEvent.h"
 
 #if HAVE_LIBPHX == 1
 #include "Globals.h"
 #endif
 
-#include <vaultGlobals.h>
+#include "vaultGlobals.h"
 
 //typedef  VaultCompleteFn; 
 

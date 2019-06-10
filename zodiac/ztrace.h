@@ -23,7 +23,7 @@
 #include <sst/core/link.h>
 #include <sst/core/timeConverter.h>
 
-#include <sst/elements/hermes/msgapi.h>
+#include <msgapi.h>
 
 using namespace SST::Hermes;
 using namespace SST::Hermes::MP;

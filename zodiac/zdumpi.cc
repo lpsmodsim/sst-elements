@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include <assert.h>
 
 #include "zdumpi.h"

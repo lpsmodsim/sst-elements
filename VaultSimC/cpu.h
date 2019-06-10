@@ -18,7 +18,7 @@
 #define _CPU_H
 
 #include <sst/core/component.h>
-#include <sst/elements/VaultSimC/memReqEvent.h>
+#include "memReqEvent.h"
 #include <sst/core/rng/sstrng.h>
 #include <sst/core/output.h>
 

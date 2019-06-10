@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include "zsendevent.h"
 
 using namespace SST::Hermes;

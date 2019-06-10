@@ -1,5 +1,8 @@
 Manual fixes applied after running fixes.sh:
-fix #includes so that they reference the correct directory structure:
+-merge hermes into thornhill
+
+
+Fix #includes so that they reference the correct directory structure:
 
 merlin:
 	-offeredLoad
@@ -17,10 +20,17 @@ memHierarchy:
 	-coherentMemoryController
 	
 cassini:
-	-
+	-pageentry
 
 miranda:
 	-generators files
+
+VaultSimC:
+	-VaultSimC
+	-memReqEvent
+	-logicLayer
+	-cpu
+
 
 -----------------------------------------------------------------------------------
 List of elements that build properly:
@@ -33,16 +43,19 @@ memHierarchy
 Messier
 cacheTracer
 GNA
-
+cassini
 simpleElementExample
-
+VaultSimC
 miranda
-thornhill
+thornhill + hermes
+zodiac
 
 
 
 Ignoring:
 ariel - PIN
+Opal - ariel
+Samba - Opal
 prospero - PIN
 simpleSimulation - this is the old version of the carwash
 
@@ -51,49 +64,31 @@ New and need to be investigated:
 shogun
 
 
+-----------------------------------------------------------------------------------
+Dependencies:
 
+kingsley - None
+scheduler - None
+pyproto - None
+merlin - None
+CramSim - None
 
-
-----------------------------------------------------------------------------------------
-Old results before updating:
-List of elements that have been separated and run standalone:
-
-kingsley
-scheduler
-pyproto - builds but python can't find sst.pyproto (doesn't work for combined sst-elements either)
-
-merlin
-CramSim - TxnDispatcher.cpp is messed up, compiles without that
-
-memHierarchy - not completely tested, DRAMSim appears to work - optional dependency on merlin, Messier, CramSim
+memHierarchy - optional dependency on merlin, Messier, CramSim
 Messier - depends on memHierarchy
 cacheTracer - depends on memHierarchy
 GNA - depends on memHierarchy
-cassini - dmaengine.cc is messed up, compiles without that - depends on memHierarchy
-simpleElementExample - simpleTracerComponent.cc is messed up, compiles without that - depends on memHierarchy
+cassini - depends on memHierarchy
+simpleElementExample - depends on memHierarchy
 VaultSimC - depends on memHierarchy
 
 Opal - depends on memHierarchy
 Samba - depends on memHierarchy, Opal
 
 
-miranda - haven't tested stake
+miranda - None
 thornhill - depends on miranda
 hermes  - merged into thornhill
-firefly - nicTester.cc is messed up, compiles without that - depends on thornhill
-zodiac - need to test dumpi and otf - depends on thornhill
-ember - tools compiled separately? need to test, emberotf2.cc needs otf? - depends on thornhill
-
-
-thornhill & hermes - no tests
-
-Tested and Runs:
-cacheTracer
-cassini
-GNA
-kingsley
-Messier
-miranda - skipped goblin HMC tests, others seem to work
-VaultSimC - skipped pim test, sdl tests work
-simpleElementExample - Tracer component doesn't work, everything else does
+zodiac - depends on thornhill + hermes
+firefly - depends on thornhill
+ember - depends on thornhill
 

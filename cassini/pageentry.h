@@ -22,7 +22,7 @@
 #include <sst/core/component.h>
 #include <sst/core/link.h>
 #include <sst/core/timeConverter.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 
 using namespace SST;
 using namespace SST::MemHierarchy;

@@ -15,7 +15,7 @@
 
 #include <assert.h>
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "simpleRNGComponent.h"
 
 #include "sst/core/rng/mersenne.h"

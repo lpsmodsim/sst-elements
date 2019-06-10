@@ -13,13 +13,13 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 
 #include <sst/core/debug.h>
 #include <sst/core/timeLord.h>
 #include <sst/core/interfaces/simpleMem.h>
 #include <sst/core/timeConverter.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 
 #include "simpleTracerComponent.h"
 

@@ -15,7 +15,7 @@
 
 //#include <assert.h>
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "simpleDistribComponent.h"
 
 #include "sst/core/rng/expon.h"

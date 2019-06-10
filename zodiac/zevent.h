@@ -17,7 +17,7 @@
 #ifndef _H_ZODIAC_EVENT_BASE
 #define _H_ZODIAC_EVENT_BASE
 
-#include "sst/elements/hermes/msgapi.h"
+#include "msgapi.h"
 
 namespace SST {
 namespace Zodiac {

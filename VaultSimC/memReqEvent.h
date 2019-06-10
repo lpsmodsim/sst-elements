@@ -17,7 +17,7 @@
 #define _H_SST_VAULTSIM_MEM_EVENT
 
 #include <sst/core/event.h>
-#include <sst/elements/VaultSimC/VaultSimC.h>
+#include "VaultSimC.h"
 
 namespace SST {
 namespace VaultSim {

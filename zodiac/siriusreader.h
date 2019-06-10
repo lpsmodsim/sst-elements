@@ -27,7 +27,7 @@
 #include <queue>
 
 #include "sst/core/output.h"
-#include "sst/elements/hermes/msgapi.h"
+#include "msgapi.h"
 
 #include "sirius/siriusconst.h"
 

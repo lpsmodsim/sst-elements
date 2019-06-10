@@ -13,14 +13,10 @@ elements=(\
     cassini \
     simpleElementExample \
     VaultSimC \
-    Opal \
-    Samba \
     miranda \
     thornhill \
-    firefly \
     zodiac \
-    ember \
-    memHierarchy \
+    memHierarchy \ # redo memHierarchy at the end to compile some of the optional dependencies
 )
 
 for i in "${elements[@]}"; do

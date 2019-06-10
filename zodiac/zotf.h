@@ -25,7 +25,7 @@
 
 #include "stdio.h"
 #include "stdlib.h"
-#include <sst/elements/hermes/msgapi.h>
+#include <msgapi.h>
 
 #include "otfreader.h"
 

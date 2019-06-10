@@ -15,7 +15,7 @@
 
 //#include <assert.h>
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include "simpleClockerComponent.h"
 
 namespace SST {

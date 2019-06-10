@@ -16,7 +16,7 @@
 #ifndef _SIMPLETRACERCOMPONENT_H
 #define _SIMPLETRACERCOMPONENT_H
 
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 
 using namespace std;
 using namespace SST;

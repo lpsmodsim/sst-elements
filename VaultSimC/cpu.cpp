@@ -13,8 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
-#include <cpu.h>
+#include <sst/core/sst_config.h>
+#include "cpu.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,7 +23,7 @@
 #include <sst/core/params.h>
 #include <sst/core/rng/mersenne.h>
 
-#include <sst/elements/VaultSimC/memReqEvent.h>
+#include "memReqEvent.h"
 
 using namespace SST;
 using namespace SST::VaultSim;

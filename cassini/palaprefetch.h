@@ -26,8 +26,8 @@
 #include <sst/core/component.h>
 #include <sst/core/link.h>
 #include <sst/core/timeConverter.h>
-#include <sst/elements/memHierarchy/memEvent.h>
-#include <sst/elements/memHierarchy/cacheListener.h>
+#include <memEvent.h>
+#include <cacheListener.h>
 
 #include <sst/core/output.h>
 

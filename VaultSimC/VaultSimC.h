@@ -19,7 +19,7 @@
 
 #include <sst/core/event.h>
 #include <sst/core/component.h>
-#include <sst/elements/memHierarchy/memEvent.h>
+#include <memEvent.h>
 #include <sst/core/output.h>
 
 /* If we have a PHX library to link to, we use that. Otherwise, we use

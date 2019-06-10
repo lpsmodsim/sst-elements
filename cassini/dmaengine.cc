@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 
 #include <sst/core/output.h>
 #include <sst/core/component.h>
