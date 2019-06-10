@@ -1,9 +1,3 @@
-*.o
-*.lo
-*.la
+*.so
 *.pyc
-.*.swp
 .build/
-.dirstamp
-.ignore
-tags
