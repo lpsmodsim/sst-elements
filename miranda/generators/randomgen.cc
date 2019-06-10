@@ -14,10 +14,10 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/params.h>
 #include <sst/core/rng/marsaglia.h>
-#include <sst/elements/miranda/generators/randomgen.h>
+#include "randomgen.h"
 
 using namespace SST::Miranda;
 

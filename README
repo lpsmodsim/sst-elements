@@ -19,6 +19,9 @@ memHierarchy:
 cassini:
 	-
 
+miranda:
+	-generators files
+
 -----------------------------------------------------------------------------------
 List of elements that build properly:
 kingsley
@@ -33,6 +36,8 @@ GNA
 
 simpleElementExample
 
+miranda
+thornhill
 
 
 

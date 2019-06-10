@@ -17,7 +17,7 @@
 #ifndef _H_SST_MIRANDA_STAKE
 #define _H_SST_MIRANDA_STAKE
 
-#include <sst/elements/miranda/mirandaGenerator.h>
+#include "../mirandaGenerator.h"
 #include <sst/core/output.h>
 
 #include <queue>

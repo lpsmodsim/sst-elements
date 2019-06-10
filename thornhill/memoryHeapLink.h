@@ -20,7 +20,7 @@
 #include <functional>
 #include "sst/core/subcomponent.h"
 #include "sst/core/link.h"
-#include "sst/elements/thornhill/memoryHeapEvent.h"
+#include "memoryHeapEvent.h"
 
 namespace SST {
 namespace Thornhill {

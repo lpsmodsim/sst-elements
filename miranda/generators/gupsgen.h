@@ -17,7 +17,7 @@
 #ifndef _H_SST_MIRANDA_GUPS_GEN
 #define _H_SST_MIRANDA_GUPS_GEN
 
-#include <sst/elements/miranda/mirandaGenerator.h>
+#include "../mirandaGenerator.h"
 #include <sst/core/output.h>
 #include <sst/core/rng/sstrng.h>
 

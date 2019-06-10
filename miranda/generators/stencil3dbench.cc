@@ -14,9 +14,9 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/params.h>
-#include <sst/elements/miranda/generators/stencil3dbench.h>
+#include "stencil3dbench.h"
 
 using namespace SST::Miranda;
 

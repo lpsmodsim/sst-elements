@@ -14,9 +14,9 @@
 // distribution.
 
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/params.h>
-#include <sst/elements/miranda/generators/revsinglestream.h>
+#include "revsinglestream.h"
 
 using namespace SST::Miranda;
 

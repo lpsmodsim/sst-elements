@@ -13,12 +13,12 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
+#include <sst/core/sst_config.h>
 #include <sst/core/component.h>
 #include <sst/core/subcomponent.h>
 #include <sst/core/link.h>
 
-#include "sst/elements/miranda/mirandaEvent.h"
+#include "mirandaEvent.h"
 
 #include "singleThread.h"
 

@@ -21,7 +21,7 @@
 #include <sst/core/event.h>
 #include <sst/core/params.h>
 
-#include "sst/elements/thornhill/types.h"
+#include "types.h"
 
 namespace SST {
 namespace Thornhill {

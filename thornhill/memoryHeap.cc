@@ -14,12 +14,12 @@
 // distribution.
 
 
-#include "sst_config.h"
+#include <sst/core/sst_config.h>
 #include <sst/core/link.h>
 
 #include <sstream>
 
-#include "sst/elements/thornhill/memoryHeapEvent.h"
+#include "memoryHeapEvent.h"
 
 #include "memoryHeap.h"
 

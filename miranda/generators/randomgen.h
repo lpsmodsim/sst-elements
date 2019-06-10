@@ -17,7 +17,7 @@
 #ifndef _H_SST_MIRANDA_RANDOM_GEN
 #define _H_SST_MIRANDA_RANDOM_GEN
 
-#include <sst/elements/miranda/mirandaGenerator.h>
+#include "../mirandaGenerator.h"
 #include <sst/core/output.h>
 #include <sst/core/rng/sstrng.h>
 
